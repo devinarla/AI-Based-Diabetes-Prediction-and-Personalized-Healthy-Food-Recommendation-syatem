@@ -4,7 +4,7 @@ import tensorflow as tf
 import numpy as np
 from PIL import Image
 import joblib
-diabetes_model = joblib.load("../Diabetes_AI/diabetes_model.pkl")
+diabetes_model = joblib.load("diabetes_model.pkl")
 
 # -----------------------------
 # Page settings
